@@ -1,0 +1,123 @@
+Steps 
+1. Python word MVP 
+2. Draw concept art
+3. Python to MVP with images (basic card) browser front end 
+4. Try messing around in wax 
+5. JS MVP (ask AJ for help)
+6. Connect tester wax bits 
+7. Contact Momichu or cute cheap artist to knock up concept art
+8. Animation for mining 
+9. Connect wax blockchain to game
+
+
+
+1.Mining (Passive)
+2.Battle (Active)
+3. Adventure(Active) 
+4. Metaverse (?)
+Battle - home for resting bonus x2 points, staking NFTs candies. Can't stake in combat...,
+Adventure - this could be meta verse complex (locations (battle arenas, potion/candy shops, mining spots,  mini games...)
+
+NFT/Token elements
+Character (NFT) Player needs to buy
+Snackie / Power ups 
+
+
+ claim WAX for shards > 1RCS = 000.1WAX
+
+
+Without Enemies 
+Character mines rocks to get rock candy they might stumble on a common  candy max 1 every 5 sessions. Characters get 1 rock every 2 seconds (rock candy shard 0.001 Wax player get - most likely use claim system) 
+
+With Enemies 
+While mining rocks sludge monsters (with potential goodies trapped in them may attack).
+The player fight sludge monsters passively based on stats and single attack option (Special attacks and other power ups bestowed by candy!!). Slug monsters appear based on timer. The sludge monsters also drop candy of various colours. (Or potions or shields you have to equip them or buy them) Colours indicate rarity and value. 
+
+Battle 
+Charachters fight each other like axie but no cards 
+Figure out combat later 
+
+
+(Procedurally create players)
+(Hand draw candy) 
+
+—Elements—
+-Player-
+-Character-
+-Enemy--
+-[pick/axe/drill(drill lowers your drop rate but keeps stamina (vice versa)]-
+-Drops-
+
+-Candy-
+Attacks
+Heals
+Stamina*
+Shield / Invincibile 
+Drop Rate*
+
+
+
+SIMPLEST FUNCTION
+Passive game function (simple version) 
+
+Account / Buying a character
+Player 1 has 1 wallet
+1 Wallet has X tokens
+Player has a bag / inventory [this holds rocks + rock candy
+Player 1 can have x amount of characters
+Player must have 1 to play
+
+[Transaction must occur]
+
+Create fake token and wallet
+Assign fake wallet to player (for now wallet is just variable with number of tokens assigned)
+
+Character stats
+-Stamina 
+-Price 
+-[ Drop Rate ]
+-Bag/Inventory
+-[ Power Ups]
+-[Store [Future House in metaverse]]
+
+Game Play
+-General Mining-
+Set chachter 
+Set stamina to 100
+Set drop rate  0% /0  (don't mult by 0 just dont change)
+
+START GAME
+3 minute time starts
+Every 5 seconds Character stamina drops by 1
+Every 5 seconds Player gets 1 added to rock candy  added to bag 
+
+
+END GAME
+When Timer runs out game ends
+When stamina runs out game ends
+
+Try Creating a second and third Character for the player to chose from
+C1 
+Stamina = 75 (No major change)
+Drop rate = 10% (Add if function to rock candy adding checks start drop rate)
+
+C2 
+Stamina = 120
+Drop rate = -10%
+
+C3
+Stamina = 50
+Drop rate = 60%
+
+----------  FRONT END -------------
+
+-MATHS-
+ADJUST Figures for gaming experience mathematically (don't change game but keep notes)
+
+-------------More functionality---------
+
+Try assigning a power up = for now just add snacky to inventory and if snacky is true then run function to decrease stamina drop by 10%,.
+Try adding 2 power ups. (20% and 50%)
+Try running Power ups for 30 seconds - sequentially. (one then another once 5 secs after)
+Try interactive power with cool down
+
