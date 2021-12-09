@@ -85,9 +85,14 @@ def playercreation():
 	return player1
 
 
+#---------------Option for selecting pre-existing player
+
+
 def gamestart():
 	choice = startChoice()
 	return(choice)
+
+
 
 
 
