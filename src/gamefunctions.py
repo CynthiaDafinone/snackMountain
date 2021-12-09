@@ -22,18 +22,30 @@ def pickupRCS(player):
         t -= 1 #essentially the main coundown
         c += 1
         rcstotal = rcstotal +rcs
-        
-    print (("You found %d Rock Candy Shards" %rcstotal))
-    
-    return(done)
+    print ("Time's Up")
+    print ("You've won %d tokens" %rcstotal)
+    #Added to inventory
+    return (rcstotal)
+  
+#def playAgain():
+
+
+    #return(done)
 
 #create a function to set players token
 #Create a dud print line to show real game output data
 
-# def addRCStoInventory
+def addRCStoInventory(player,rcstotal):
+    currentTokens = player.tokens + rcstotal
+    player.setTokens(player,currentTokens)
+    return(currentTokens)
+
+
 
 def tokenTimer(c):
     rcs = 0
+    #random number generator
+    #d
     if (c / 10 ).is_integer() and c>0:
         rcs = 1
 

@@ -20,9 +20,20 @@ def main():
 
  
 
-    choice = gamestart()
+    choice = gamestart() #see welcome menu !!!!!!!!!!!!!!!!
     game = Gameplay(choice,player1) #start game
     game.startGame(game, choice, player1)
+
+    #move this either into gameplay or welcome menu it can't stay here
+
+    while game.playAgain(game,player1) == "Y":
+        game.startGame(game, choice, player1)
+    else:
+        print("Thanks for playing")
+
+    #game finishes
+    #take user input
+    #start a new round
 
 
 if __name__ == "__main__":

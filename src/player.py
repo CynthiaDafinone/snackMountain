@@ -10,6 +10,10 @@ class Player:
 		this.wallet = wallet
     
 
+	@staticmethod
+	def setTokens(this, tokens):
+		this.tokens = tokens
 
-
+	#@staticmethod
+	#def getTokens(this)	
 	
