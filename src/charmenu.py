@@ -13,9 +13,9 @@ def createChars(name, stamina,droprate, price):
 def buildcharlist():
 	#DEMO THIS WILL BE AT LEAST a CSV sheet tomorrow [READ FROM CSV]
 	chars = []
-	char1 = createChars("Jeff", 100, 0.5, 0.5)
-	char2 = createChars("Alice", 120, 0.4, 0.7)
-	char3 = createChars("Jake", 90, 0.2, 0.3)
+	char1 = createChars("Jeff", 100, 3, 0.5)
+	char2 = createChars("Alice", 120, 4, 0.7)
+	char3 = createChars("Jake", 90, 5, 0.3)
 	#print(char1.name)
 	chars.append(char1)
 	chars.append(char2)
